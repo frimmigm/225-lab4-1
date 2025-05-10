@@ -11,7 +11,7 @@ spec:
     - ReadWriteMany
   nfs:
     path:  /srv/nfs/frimmigm         #local reference change this!!!!
-    server: 10.48.10.134
+    server: 10.48.10.140
   persistentVolumeReclaimPolicy: Retain
 ---
 apiVersion: v1
